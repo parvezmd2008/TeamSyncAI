@@ -1,0 +1,15 @@
+[project]
+name = "kmit"
+version = "0.1.0"
+description = "AI RAG Agent using LangChain and Gemini"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.2.0",
+    "langchain-google-genai>=1.0.0",
+    "chromadb>=0.5.0",
+    "python-dotenv>=1.0.0",
+    "langchain-core>=0.2.0",
+    "langchain-text-splitters>=0.0.0",
+    "langchain-chroma>=1.0.0",
+]
